@@ -100,7 +100,7 @@ const TechnicienSupportSite = () => {
       </nav>
 
       {/* Hero Section avec blobs animés */}
-      <section className="h-screen flex items-center relative overflow-hidden">
+      <section className="min-h-screen pt-24 flex items-center relative overflow-hidden">
         {/* Blobs avec nouvelles animations */}
         <div 
           className="absolute -top-20 -left-20 w-96 h-96 bg-cyan-500/30 rounded-full mix-blend-screen filter blur-3xl"
@@ -169,8 +169,8 @@ const TechnicienSupportSite = () => {
               </div>
             </div>
 
-            {/* Section infos clés */}
-            <div className="w-full md:w-[400px] space-y-4 backdrop-blur-sm p-4 sm:p-8 rounded-2xl border border-white/10">
+            {/* Section infos clés avec padding-top ajusté */}
+            <div className="w-full md:w-[400px] space-y-4 backdrop-blur-sm p-4 sm:p-8 rounded-2xl border border-white/10 mt-8 md:mt-0">
               <img 
                 src="/api/placeholder/150/150" 
                 alt="Portrait de Martin YIPPÉ"
