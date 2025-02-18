@@ -48,7 +48,7 @@ const TechnicienSupportSite = () => {
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrollY > 50 ? 'bg-black/80 backdrop-blur-md' : 'bg-transparent'}`}>
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-light tracking-wider">M<span className="text-cyan-400">.</span></div>
+            <div className="text-2xl font-light tracking-wider">MY<span className="text-cyan-400">.</span></div>
             
             {/* Menu mobile button */}
             <button 
@@ -173,12 +173,17 @@ const TechnicienSupportSite = () => {
             <div className="w-full md:w-[400px] space-y-4 backdrop-blur-sm p-4 sm:p-8 rounded-2xl border border-white/10">
               <img 
                 src="/api/placeholder/150/150" 
-                alt="Portrait"
+                alt="Portrait de Martin YIPPÉ"
                 className="rounded-full w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-6 object-cover border-2 border-cyan-400"
               />
               
               {/* Infos principales avec meilleure adaptation mobile */}
               <div className="space-y-3 sm:space-y-4">
+                <div className="p-2 sm:p-3 rounded-lg bg-white/5">
+                  <h3 className="text-cyan-400 text-xs sm:text-sm mb-1">Martin YIPPÉ</h3>
+                  <p className="text-gray-300 text-sm sm:text-base">Expert Support Technique</p>
+                </div>
+                
                 <div className="p-2 sm:p-3 rounded-lg bg-white/5">
                   <h3 className="text-cyan-400 text-xs sm:text-sm mb-1">Certifications</h3>
                   <p className="text-gray-300 text-sm sm:text-base">ITIL v4 • CompTIA A+ • Microsoft 365</p>
@@ -366,7 +371,7 @@ const TechnicienSupportSite = () => {
       {/* Footer */}
       <footer className="py-8 border-t border-white/10">
         <div className="container mx-auto px-6 text-center text-gray-400">
-          <p>&copy; 2025 Martin - Tous droits réservés</p>
+          <p>&copy; {new Date().getFullYear()} Martin YIPPÉ - Tous droits réservés</p>
         </div>
       </footer>
     </div>
