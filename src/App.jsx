@@ -299,11 +299,11 @@ const TechnicienSupportSite = () => {
                 </p>
               </div>
               <div className="space-y-4">
-                <a href="mailto:contact@martin-support.fr" className="flex items-center text-gray-600 hover:text-gray-800 transition-colors">
-                  <Mail className="mr-4" /> contact@martin-support.fr
+                <a href="mailto:contact@papik-it.fr" className="flex items-center text-gray-600 hover:text-gray-800 transition-colors">
+                  <Mail className="mr-4" /> contact@papik-it.fr
                 </a>
-                <a href="tel:+33600000000" className="flex items-center text-gray-600 hover:text-gray-800 transition-colors">
-                  <Phone className="mr-4" /> +33 6 00 00 00 00
+                <a href="tel:+33652921417" className="flex items-center text-gray-600 hover:text-gray-800 transition-colors">
+                  <Phone className="mr-4" /> +33 6 52 92 14 17
                 </a>
               </div>
               <div className="flex space-x-6">
