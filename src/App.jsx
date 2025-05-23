@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Clock, Mail, Phone, Linkedin, Github, Calendar, ChevronDown } from 'lucide-react';
+import martinPhoto from './assets/martin-photo.jpg';
 
 const TechnicienSupportSite = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -175,8 +176,8 @@ const TechnicienSupportSite = () => {
             {/* Carte Info */}
             <div className="w-full md:w-[400px] space-y-4 backdrop-blur-sm p-4 sm:p-8 rounded-2xl border border-gray-100 mt-8 md:mt-0">
               <div className="text-center">
-                <div className="w-32 h-32 mx-auto rounded-full border-2 border-gray-800 flex items-center justify-center">
-                  <span className="text-gray-400">Portrait</span>
+                <div className="w-32 h-32 mx-auto rounded-full border-2 border-gray-800 overflow-hidden">
+                  <img src={martinPhoto} alt="Martin Yippé" className="w-full h-full object-cover" />
                 </div>
               </div>
 
